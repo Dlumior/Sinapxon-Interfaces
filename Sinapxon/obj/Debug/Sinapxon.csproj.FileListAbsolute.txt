@@ -69,3 +69,4 @@ T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.pdb
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirTema.resources
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirEvaluacion.resources
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmEditarClassroom.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmAdministrador.resources

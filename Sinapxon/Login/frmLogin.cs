@@ -1,4 +1,5 @@
-﻿using Sinapxon.Alumno;
+﻿using Sinapxon.Administrador;
+using Sinapxon.Alumno;
 using Sinapxon.Profesor;
 using System;
 using System.Collections.Generic;
@@ -26,17 +27,21 @@ namespace Sinapxon.Login
             formPrincipal.Visible = true;
             this.Visible = true;
             */
-            
+
             /*
             frmAlumno formAlumno = new frmAlumno();
             formAlumno.Visible = true;
             this.Visible = true;
             */
 
-            
+            /*
             frmProfesor formProfesor = new frmProfesor();
             formProfesor.Visible = true;
             this.Visible = true;
+            */
+
+            frmAdministrador formAdministrador = new frmAdministrador();
+            formAdministrador.Visible = true;
             
         }
 
