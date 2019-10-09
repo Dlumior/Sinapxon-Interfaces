@@ -35,15 +35,17 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnAniadirTema = new System.Windows.Forms.Button();
             this.btnAniadirEvaluacion = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 150);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 167);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(840, 374);
+            this.dataGridView1.Size = new System.Drawing.Size(840, 391);
             this.dataGridView1.TabIndex = 0;
             // 
             // btnAniadirClassroom
@@ -59,10 +61,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 29);
+            this.label1.Size = new System.Drawing.Size(194, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Mis classrooms";
             // 
@@ -84,27 +86,50 @@
             // 
             // btnAniadirTema
             // 
-            this.btnAniadirTema.Location = new System.Drawing.Point(12, 559);
+            this.btnAniadirTema.Location = new System.Drawing.Point(12, 582);
             this.btnAniadirTema.Name = "btnAniadirTema";
             this.btnAniadirTema.Size = new System.Drawing.Size(111, 23);
             this.btnAniadirTema.TabIndex = 6;
             this.btnAniadirTema.Text = "Añadir Tema";
             this.btnAniadirTema.UseVisualStyleBackColor = true;
+            this.btnAniadirTema.Click += new System.EventHandler(this.btnAniadirTema_Click);
             // 
             // btnAniadirEvaluacion
             // 
-            this.btnAniadirEvaluacion.Location = new System.Drawing.Point(146, 559);
+            this.btnAniadirEvaluacion.Location = new System.Drawing.Point(143, 582);
             this.btnAniadirEvaluacion.Name = "btnAniadirEvaluacion";
             this.btnAniadirEvaluacion.Size = new System.Drawing.Size(113, 23);
             this.btnAniadirEvaluacion.TabIndex = 7;
             this.btnAniadirEvaluacion.Text = "Añadir evaluación";
             this.btnAniadirEvaluacion.UseVisualStyleBackColor = true;
+            this.btnAniadirEvaluacion.Click += new System.EventHandler(this.btnAniadirEvaluacion_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 142);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(326, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Seleccione un classroom para añadir un tema, evaluación o editarlo";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(736, 581);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Editar classroom";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmGestionarMisClassrooms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 630);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAniadirEvaluacion);
             this.Controls.Add(this.btnAniadirTema);
             this.Controls.Add(this.btnBuscar);
@@ -130,5 +155,7 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnAniadirTema;
         private System.Windows.Forms.Button btnAniadirEvaluacion;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }

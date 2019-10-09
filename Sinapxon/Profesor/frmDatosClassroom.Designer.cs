@@ -33,8 +33,8 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblFechaInicio = new System.Windows.Forms.Label();
             this.lblFechaFin = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.btnEnviarSolicitud = new System.Windows.Forms.Button();
@@ -43,17 +43,17 @@
             // lblDatosClassroom
             // 
             this.lblDatosClassroom.AutoSize = true;
-            this.lblDatosClassroom.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDatosClassroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatosClassroom.Location = new System.Drawing.Point(12, 9);
             this.lblDatosClassroom.Name = "lblDatosClassroom";
-            this.lblDatosClassroom.Size = new System.Drawing.Size(235, 29);
+            this.lblDatosClassroom.Size = new System.Drawing.Size(251, 29);
             this.lblDatosClassroom.TabIndex = 0;
             this.lblDatosClassroom.Text = "Datos del classroom";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(39, 127);
+            this.lblNombre.Location = new System.Drawing.Point(37, 73);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 1;
@@ -62,7 +62,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(37, 207);
+            this.lblDescripcion.Location = new System.Drawing.Point(37, 141);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcion.TabIndex = 2;
@@ -71,7 +71,7 @@
             // lblFechaInicio
             // 
             this.lblFechaInicio.AutoSize = true;
-            this.lblFechaInicio.Location = new System.Drawing.Point(37, 269);
+            this.lblFechaInicio.Location = new System.Drawing.Point(37, 439);
             this.lblFechaInicio.Name = "lblFechaInicio";
             this.lblFechaInicio.Size = new System.Drawing.Size(79, 13);
             this.lblFechaInicio.TabIndex = 3;
@@ -80,43 +80,44 @@
             // lblFechaFin
             // 
             this.lblFechaFin.AutoSize = true;
-            this.lblFechaFin.Location = new System.Drawing.Point(37, 348);
+            this.lblFechaFin.Location = new System.Drawing.Point(356, 439);
             this.lblFechaFin.Name = "lblFechaFin";
             this.lblFechaFin.Size = new System.Drawing.Size(66, 13);
             this.lblFechaFin.TabIndex = 4;
             this.lblFechaFin.Text = "Fecha de fin";
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 124);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(674, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtNombre.Location = new System.Drawing.Point(40, 98);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(772, 20);
+            this.txtNombre.TabIndex = 5;
             // 
-            // textBox2
+            // txtDescripcion
             // 
-            this.textBox2.Location = new System.Drawing.Point(124, 200);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(672, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtDescripcion.Location = new System.Drawing.Point(40, 169);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(772, 240);
+            this.txtDescripcion.TabIndex = 6;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(122, 269);
+            this.dateTimePicker1.Location = new System.Drawing.Point(40, 476);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(674, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(232, 20);
             this.dateTimePicker1.TabIndex = 7;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(124, 342);
+            this.dateTimePicker2.Location = new System.Drawing.Point(359, 476);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(672, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(232, 20);
             this.dateTimePicker2.TabIndex = 8;
             // 
             // btnEnviarSolicitud
             // 
-            this.btnEnviarSolicitud.Location = new System.Drawing.Point(678, 565);
+            this.btnEnviarSolicitud.Location = new System.Drawing.Point(692, 567);
             this.btnEnviarSolicitud.Name = "btnEnviarSolicitud";
             this.btnEnviarSolicitud.Size = new System.Drawing.Size(120, 23);
             this.btnEnviarSolicitud.TabIndex = 9;
@@ -132,8 +133,8 @@
             this.Controls.Add(this.btnEnviarSolicitud);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescripcion);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblFechaFin);
             this.Controls.Add(this.lblFechaInicio);
             this.Controls.Add(this.lblDescripcion);
@@ -153,8 +154,8 @@
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblFechaInicio;
         private System.Windows.Forms.Label lblFechaFin;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button btnEnviarSolicitud;
