@@ -70,3 +70,12 @@ T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirTema.
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirEvaluacion.resources
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmEditarClassroom.resources
 T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmAdministrador.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmGestionarCursos.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmAgregarCurso.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmAgregarRequisito.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmAgregarEspecialidad.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmGestionarClassroom.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmSolicitudClassroom.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmGestionarProfesor.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmGestionarAlumno.resources
+T:\temp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Administrador.frmListaUsuarios.resources
