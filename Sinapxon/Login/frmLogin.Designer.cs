@@ -36,33 +36,40 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.pctLogoSinapxon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogoSinapxon)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(10, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 25);
+            this.label1.Size = new System.Drawing.Size(191, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "SINAPXON";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(134, 93);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(134, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(67, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Usuario:";
+            this.label2.Text = "Usuario";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(134, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.Size = new System.Drawing.Size(95, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "Contraseña";
             // 
@@ -82,39 +89,59 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(373, 181);
+            this.button1.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(234, 166);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 5;
             this.button1.Text = "Ingresar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(234, 181);
+            this.button2.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(23, 210);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 23);
+            this.button2.Size = new System.Drawing.Size(172, 23);
             this.button2.TabIndex = 6;
             this.button2.Text = "Olvidé mi contraseña";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(137, 181);
+            this.button3.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.Location = new System.Drawing.Point(208, 210);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(214, 23);
             this.button3.TabIndex = 7;
-            this.button3.Text = "Registrarse";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Text = "Registrarse como alumno";
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // pctLogoSinapxon
+            // 
+            this.pctLogoSinapxon.Location = new System.Drawing.Point(12, 64);
+            this.pctLogoSinapxon.Name = "pctLogoSinapxon";
+            this.pctLogoSinapxon.Size = new System.Drawing.Size(116, 107);
+            this.pctLogoSinapxon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctLogoSinapxon.TabIndex = 9;
+            this.pctLogoSinapxon.TabStop = false;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(482, 254);
+            this.Controls.Add(this.pctLogoSinapxon);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -125,6 +152,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmLogin";
             this.Text = "frmLogin";
+            ((System.ComponentModel.ISupportInitialize)(this.pctLogoSinapxon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,5 +168,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pctLogoSinapxon;
     }
 }

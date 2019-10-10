@@ -41,10 +41,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 29);
+            this.label1.Size = new System.Drawing.Size(212, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "APLICA - Tema 1";
             // 
@@ -75,6 +75,7 @@
             // 
             // btnDescargar
             // 
+            this.btnDescargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDescargar.Location = new System.Drawing.Point(675, 628);
             this.btnDescargar.Name = "btnDescargar";
             this.btnDescargar.Size = new System.Drawing.Size(172, 23);
@@ -84,18 +85,20 @@
             // 
             // btnDescargarEvaluacion
             // 
+            this.btnDescargarEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDescargarEvaluacion.Location = new System.Drawing.Point(12, 627);
             this.btnDescargarEvaluacion.Name = "btnDescargarEvaluacion";
-            this.btnDescargarEvaluacion.Size = new System.Drawing.Size(142, 23);
+            this.btnDescargarEvaluacion.Size = new System.Drawing.Size(154, 23);
             this.btnDescargarEvaluacion.TabIndex = 5;
             this.btnDescargarEvaluacion.Text = "Descargar evaluación";
             this.btnDescargarEvaluacion.UseVisualStyleBackColor = true;
             // 
             // btnSubirEvaluacion
             // 
-            this.btnSubirEvaluacion.Location = new System.Drawing.Point(172, 627);
+            this.btnSubirEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubirEvaluacion.Location = new System.Drawing.Point(186, 628);
             this.btnSubirEvaluacion.Name = "btnSubirEvaluacion";
-            this.btnSubirEvaluacion.Size = new System.Drawing.Size(134, 23);
+            this.btnSubirEvaluacion.Size = new System.Drawing.Size(140, 23);
             this.btnSubirEvaluacion.TabIndex = 6;
             this.btnSubirEvaluacion.Text = "Subir evaluación";
             this.btnSubirEvaluacion.UseVisualStyleBackColor = true;

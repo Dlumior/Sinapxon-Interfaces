@@ -33,15 +33,15 @@
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblLinkVideo = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.gbArchivos = new System.Windows.Forms.GroupBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtLinkVideo = new System.Windows.Forms.TextBox();
-            this.dgvArchivos = new System.Windows.Forms.DataGridView();
-            this.txtBuscarArchivo = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.gbArchivos = new System.Windows.Forms.GroupBox();
             this.btnAniadirArchivo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtBuscarArchivo = new System.Windows.Forms.TextBox();
+            this.dgvArchivos = new System.Windows.Forms.DataGridView();
             this.btnGuardarTema = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -99,6 +99,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos generales del tema";
             // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(22, 101);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(775, 55);
+            this.txtDescripcion.TabIndex = 4;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(22, 41);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(775, 20);
+            this.txtNombre.TabIndex = 3;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtLinkVideo);
@@ -109,6 +124,13 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Video";
+            // 
+            // txtLinkVideo
+            // 
+            this.txtLinkVideo.Location = new System.Drawing.Point(22, 61);
+            this.txtLinkVideo.Name = "txtLinkVideo";
+            this.txtLinkVideo.Size = new System.Drawing.Size(775, 20);
+            this.txtLinkVideo.TabIndex = 4;
             // 
             // gbArchivos
             // 
@@ -123,27 +145,32 @@
             this.gbArchivos.TabStop = false;
             this.gbArchivos.Text = "Archivos del curso";
             // 
-            // txtNombre
+            // btnAniadirArchivo
             // 
-            this.txtNombre.Location = new System.Drawing.Point(22, 41);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(775, 20);
-            this.txtNombre.TabIndex = 3;
+            this.btnAniadirArchivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAniadirArchivo.Location = new System.Drawing.Point(676, 39);
+            this.btnAniadirArchivo.Name = "btnAniadirArchivo";
+            this.btnAniadirArchivo.Size = new System.Drawing.Size(121, 23);
+            this.btnAniadirArchivo.TabIndex = 3;
+            this.btnAniadirArchivo.Text = "Añadir archivo";
+            this.btnAniadirArchivo.UseVisualStyleBackColor = true;
             // 
-            // txtDescripcion
+            // button1
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(22, 101);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(775, 55);
-            this.txtDescripcion.TabIndex = 4;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(549, 39);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Buscar archivo";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // txtLinkVideo
+            // txtBuscarArchivo
             // 
-            this.txtLinkVideo.Location = new System.Drawing.Point(22, 61);
-            this.txtLinkVideo.Name = "txtLinkVideo";
-            this.txtLinkVideo.Size = new System.Drawing.Size(775, 20);
-            this.txtLinkVideo.TabIndex = 4;
+            this.txtBuscarArchivo.Location = new System.Drawing.Point(22, 42);
+            this.txtBuscarArchivo.Name = "txtBuscarArchivo";
+            this.txtBuscarArchivo.Size = new System.Drawing.Size(521, 20);
+            this.txtBuscarArchivo.TabIndex = 1;
             // 
             // dgvArchivos
             // 
@@ -154,33 +181,9 @@
             this.dgvArchivos.TabIndex = 0;
             this.dgvArchivos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvArchivos_CellContentClick);
             // 
-            // txtBuscarArchivo
-            // 
-            this.txtBuscarArchivo.Location = new System.Drawing.Point(22, 42);
-            this.txtBuscarArchivo.Name = "txtBuscarArchivo";
-            this.txtBuscarArchivo.Size = new System.Drawing.Size(521, 20);
-            this.txtBuscarArchivo.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(549, 39);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Buscar archivo";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btnAniadirArchivo
-            // 
-            this.btnAniadirArchivo.Location = new System.Drawing.Point(688, 39);
-            this.btnAniadirArchivo.Name = "btnAniadirArchivo";
-            this.btnAniadirArchivo.Size = new System.Drawing.Size(109, 23);
-            this.btnAniadirArchivo.TabIndex = 3;
-            this.btnAniadirArchivo.Text = "Añadir archivo";
-            this.btnAniadirArchivo.UseVisualStyleBackColor = true;
-            // 
             // btnGuardarTema
             // 
+            this.btnGuardarTema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarTema.Location = new System.Drawing.Point(668, 605);
             this.btnGuardarTema.Name = "btnGuardarTema";
             this.btnGuardarTema.Size = new System.Drawing.Size(146, 23);

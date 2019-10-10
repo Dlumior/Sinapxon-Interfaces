@@ -37,17 +37,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(588, 25);
+            this.label1.Size = new System.Drawing.Size(602, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingrese su contraseña para confirmar su ingreso al classroom";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(14, 87);
+            this.lblPassword.Location = new System.Drawing.Point(55, 87);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(53, 13);
             this.lblPassword.TabIndex = 1;
@@ -55,16 +55,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(73, 84);
+            this.textBox1.Location = new System.Drawing.Point(125, 84);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(527, 20);
+            this.textBox1.Size = new System.Drawing.Size(208, 20);
             this.textBox1.TabIndex = 2;
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(525, 142);
+            this.btnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmar.Location = new System.Drawing.Point(485, 84);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(75, 23);
+            this.btnConfirmar.Size = new System.Drawing.Size(98, 23);
             this.btnConfirmar.TabIndex = 3;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = true;
@@ -73,7 +74,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(613, 201);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(613, 144);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblPassword);

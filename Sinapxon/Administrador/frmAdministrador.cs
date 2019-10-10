@@ -17,6 +17,7 @@ namespace Sinapxon.Administrador
         {
             InitializeComponent();
             panelSubGestionarUsr.Visible = false;
+            pctLogo.Image = Image.FromFile("Sinpaxon_Principal.png");
         }
 
         public void openChildForm(Form formularioHijo)

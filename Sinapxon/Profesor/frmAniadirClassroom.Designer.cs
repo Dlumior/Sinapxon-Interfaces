@@ -37,10 +37,10 @@
             // lblCursosDisponibles
             // 
             this.lblCursosDisponibles.AutoSize = true;
-            this.lblCursosDisponibles.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCursosDisponibles.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCursosDisponibles.Location = new System.Drawing.Point(12, 9);
             this.lblCursosDisponibles.Name = "lblCursosDisponibles";
-            this.lblCursosDisponibles.Size = new System.Drawing.Size(219, 29);
+            this.lblCursosDisponibles.Size = new System.Drawing.Size(238, 29);
             this.lblCursosDisponibles.TabIndex = 0;
             this.lblCursosDisponibles.Text = "Cursos disponibles";
             // 
@@ -54,9 +54,10 @@
             // 
             // btnSeleccionarCurso
             // 
-            this.btnSeleccionarCurso.Location = new System.Drawing.Point(569, 452);
+            this.btnSeleccionarCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccionarCurso.Location = new System.Drawing.Point(545, 452);
             this.btnSeleccionarCurso.Name = "btnSeleccionarCurso";
-            this.btnSeleccionarCurso.Size = new System.Drawing.Size(129, 23);
+            this.btnSeleccionarCurso.Size = new System.Drawing.Size(153, 23);
             this.btnSeleccionarCurso.TabIndex = 2;
             this.btnSeleccionarCurso.Text = "Seleccionar curso";
             this.btnSeleccionarCurso.UseVisualStyleBackColor = true;

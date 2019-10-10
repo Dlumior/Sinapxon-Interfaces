@@ -36,31 +36,37 @@
             // 
             // btnTemas
             // 
+            this.btnTemas.BackColor = System.Drawing.Color.BlueViolet;
+            this.btnTemas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTemas.ForeColor = System.Drawing.SystemColors.Control;
             this.btnTemas.Location = new System.Drawing.Point(141, 195);
             this.btnTemas.Name = "btnTemas";
             this.btnTemas.Size = new System.Drawing.Size(229, 206);
             this.btnTemas.TabIndex = 0;
             this.btnTemas.Text = "TEMAS";
-            this.btnTemas.UseVisualStyleBackColor = true;
+            this.btnTemas.UseVisualStyleBackColor = false;
             this.btnTemas.Click += new System.EventHandler(this.BtnTemas_Click);
             // 
             // btnEvaluaciones
             // 
+            this.btnEvaluaciones.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnEvaluaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEvaluaciones.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnEvaluaciones.Location = new System.Drawing.Point(465, 195);
             this.btnEvaluaciones.Name = "btnEvaluaciones";
             this.btnEvaluaciones.Size = new System.Drawing.Size(229, 206);
             this.btnEvaluaciones.TabIndex = 1;
             this.btnEvaluaciones.Text = "EVALUACIONES";
-            this.btnEvaluaciones.UseVisualStyleBackColor = true;
+            this.btnEvaluaciones.UseVisualStyleBackColor = false;
             this.btnEvaluaciones.Click += new System.EventHandler(this.BtnEvaluaciones_Click);
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(12, 46);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(303, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(326, 29);
             this.lblTitulo.TabIndex = 2;
             this.lblTitulo.Text = "Lenguaje de programación";
             // 

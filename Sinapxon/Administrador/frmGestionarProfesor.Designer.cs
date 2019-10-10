@@ -53,9 +53,9 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.gbEstado = new System.Windows.Forms.GroupBox();
-            this.rbActivo = new System.Windows.Forms.RadioButton();
-            this.rbInactivo = new System.Windows.Forms.RadioButton();
             this.rbBloqueado = new System.Windows.Forms.RadioButton();
+            this.rbInactivo = new System.Windows.Forms.RadioButton();
+            this.rbActivo = new System.Windows.Forms.RadioButton();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnGenerarContraseña = new System.Windows.Forms.Button();
@@ -64,6 +64,7 @@
             // 
             // btnNuevo
             // 
+            this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevo.Location = new System.Drawing.Point(30, 13);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 23);
@@ -73,18 +74,21 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(121, 12);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnModificar
             // 
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificar.Location = new System.Drawing.Point(223, 13);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.Size = new System.Drawing.Size(84, 23);
             this.btnModificar.TabIndex = 4;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -92,6 +96,7 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(320, 13);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
@@ -272,16 +277,16 @@
             this.gbEstado.TabStop = false;
             this.gbEstado.Text = "Estado";
             // 
-            // rbActivo
+            // rbBloqueado
             // 
-            this.rbActivo.AutoSize = true;
-            this.rbActivo.Location = new System.Drawing.Point(35, 36);
-            this.rbActivo.Name = "rbActivo";
-            this.rbActivo.Size = new System.Drawing.Size(55, 17);
-            this.rbActivo.TabIndex = 0;
-            this.rbActivo.TabStop = true;
-            this.rbActivo.Text = "Activo";
-            this.rbActivo.UseVisualStyleBackColor = true;
+            this.rbBloqueado.AutoSize = true;
+            this.rbBloqueado.Location = new System.Drawing.Point(35, 117);
+            this.rbBloqueado.Name = "rbBloqueado";
+            this.rbBloqueado.Size = new System.Drawing.Size(76, 17);
+            this.rbBloqueado.TabIndex = 2;
+            this.rbBloqueado.TabStop = true;
+            this.rbBloqueado.Text = "Bloqueado";
+            this.rbBloqueado.UseVisualStyleBackColor = true;
             // 
             // rbInactivo
             // 
@@ -294,16 +299,16 @@
             this.rbInactivo.Text = "Inactivo";
             this.rbInactivo.UseVisualStyleBackColor = true;
             // 
-            // rbBloqueado
+            // rbActivo
             // 
-            this.rbBloqueado.AutoSize = true;
-            this.rbBloqueado.Location = new System.Drawing.Point(35, 117);
-            this.rbBloqueado.Name = "rbBloqueado";
-            this.rbBloqueado.Size = new System.Drawing.Size(76, 17);
-            this.rbBloqueado.TabIndex = 2;
-            this.rbBloqueado.TabStop = true;
-            this.rbBloqueado.Text = "Bloqueado";
-            this.rbBloqueado.UseVisualStyleBackColor = true;
+            this.rbActivo.AutoSize = true;
+            this.rbActivo.Location = new System.Drawing.Point(35, 36);
+            this.rbActivo.Name = "rbActivo";
+            this.rbActivo.Size = new System.Drawing.Size(55, 17);
+            this.rbActivo.TabIndex = 0;
+            this.rbActivo.TabStop = true;
+            this.rbActivo.Text = "Activo";
+            this.rbActivo.UseVisualStyleBackColor = true;
             // 
             // lblPassword
             // 

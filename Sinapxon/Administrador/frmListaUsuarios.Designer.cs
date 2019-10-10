@@ -63,6 +63,7 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(688, 63);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(85, 23);
@@ -72,9 +73,10 @@
             // 
             // btnCargarUsuario
             // 
-            this.btnCargarUsuario.Location = new System.Drawing.Point(658, 397);
+            this.btnCargarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargarUsuario.Location = new System.Drawing.Point(635, 397);
             this.btnCargarUsuario.Name = "btnCargarUsuario";
-            this.btnCargarUsuario.Size = new System.Drawing.Size(115, 23);
+            this.btnCargarUsuario.Size = new System.Drawing.Size(138, 23);
             this.btnCargarUsuario.TabIndex = 4;
             this.btnCargarUsuario.Text = "Cargar usuario";
             this.btnCargarUsuario.UseVisualStyleBackColor = true;

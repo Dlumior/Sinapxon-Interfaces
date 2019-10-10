@@ -76,9 +76,10 @@
             // 
             // btnEnviarSolicitud
             // 
-            this.btnEnviarSolicitud.Location = new System.Drawing.Point(692, 539);
+            this.btnEnviarSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviarSolicitud.Location = new System.Drawing.Point(668, 539);
             this.btnEnviarSolicitud.Name = "btnEnviarSolicitud";
-            this.btnEnviarSolicitud.Size = new System.Drawing.Size(120, 23);
+            this.btnEnviarSolicitud.Size = new System.Drawing.Size(144, 23);
             this.btnEnviarSolicitud.TabIndex = 9;
             this.btnEnviarSolicitud.Text = "Enviar solicitud";
             this.btnEnviarSolicitud.UseVisualStyleBackColor = true;

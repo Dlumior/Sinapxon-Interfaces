@@ -39,11 +39,11 @@
             // lblOlvideContrasenia
             // 
             this.lblOlvideContrasenia.AutoSize = true;
-            this.lblOlvideContrasenia.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOlvideContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOlvideContrasenia.Location = new System.Drawing.Point(27, 25);
             this.lblOlvideContrasenia.Name = "lblOlvideContrasenia";
             this.lblOlvideContrasenia.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblOlvideContrasenia.Size = new System.Drawing.Size(213, 25);
+            this.lblOlvideContrasenia.Size = new System.Drawing.Size(234, 25);
             this.lblOlvideContrasenia.TabIndex = 0;
             this.lblOlvideContrasenia.Text = "Olvidé mi contraseña";
             this.lblOlvideContrasenia.Click += new System.EventHandler(this.Label1_Click);
@@ -57,9 +57,10 @@
             // 
             // btnEnviarContraseña
             // 
-            this.btnEnviarContraseña.Location = new System.Drawing.Point(475, 175);
+            this.btnEnviarContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviarContraseña.Location = new System.Drawing.Point(450, 175);
             this.btnEnviarContraseña.Name = "btnEnviarContraseña";
-            this.btnEnviarContraseña.Size = new System.Drawing.Size(132, 23);
+            this.btnEnviarContraseña.Size = new System.Drawing.Size(157, 23);
             this.btnEnviarContraseña.TabIndex = 3;
             this.btnEnviarContraseña.Text = "Enviar contraseña";
             this.btnEnviarContraseña.UseVisualStyleBackColor = true;

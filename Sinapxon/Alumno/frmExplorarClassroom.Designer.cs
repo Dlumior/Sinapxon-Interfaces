@@ -39,10 +39,10 @@
             // lblCurso
             // 
             this.lblCurso.AutoSize = true;
-            this.lblCurso.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurso.Location = new System.Drawing.Point(12, 9);
             this.lblCurso.Name = "lblCurso";
-            this.lblCurso.Size = new System.Drawing.Size(302, 29);
+            this.lblCurso.Size = new System.Drawing.Size(324, 29);
             this.lblCurso.TabIndex = 0;
             this.lblCurso.Text = "Técnicas de programación";
             // 
@@ -58,18 +58,19 @@
             // lblClassroom
             // 
             this.lblClassroom.AutoSize = true;
-            this.lblClassroom.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClassroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClassroom.Location = new System.Drawing.Point(12, 53);
             this.lblClassroom.Name = "lblClassroom";
-            this.lblClassroom.Size = new System.Drawing.Size(132, 25);
+            this.lblClassroom.Size = new System.Drawing.Size(143, 25);
             this.lblClassroom.TabIndex = 2;
             this.lblClassroom.Text = "Classroom 1";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(699, 34);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(651, 34);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 23);
+            this.button1.Size = new System.Drawing.Size(185, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "Ingresar al classroom";
             this.button1.UseVisualStyleBackColor = true;
@@ -97,6 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(848, 642);
             this.Controls.Add(this.gbPeriodo);
             this.Controls.Add(this.gbInfroProfesor);

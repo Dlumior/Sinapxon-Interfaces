@@ -54,9 +54,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(696, 586);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(645, 586);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 23);
+            this.button1.Size = new System.Drawing.Size(192, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Inspeccionar solicitud";
             this.button1.UseVisualStyleBackColor = true;
@@ -66,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(864, 681);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);

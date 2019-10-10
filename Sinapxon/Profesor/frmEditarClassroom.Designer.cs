@@ -30,17 +30,17 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.gbTemas = new System.Windows.Forms.GroupBox();
-            this.gbEvaluaciones = new System.Windows.Forms.GroupBox();
-            this.dgvTemas = new System.Windows.Forms.DataGridView();
-            this.btnEditarTema = new System.Windows.Forms.Button();
             this.btnAniadirTema = new System.Windows.Forms.Button();
-            this.btnEditarEvaluacion = new System.Windows.Forms.Button();
-            this.btnAniadirEvaluacion = new System.Windows.Forms.Button();
+            this.btnEditarTema = new System.Windows.Forms.Button();
+            this.dgvTemas = new System.Windows.Forms.DataGridView();
+            this.gbEvaluaciones = new System.Windows.Forms.GroupBox();
             this.dgvEvaluaciones = new System.Windows.Forms.DataGridView();
+            this.btnAniadirEvaluacion = new System.Windows.Forms.Button();
+            this.btnEditarEvaluacion = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.gbTemas.SuspendLayout();
-            this.gbEvaluaciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTemas)).BeginInit();
+            this.gbEvaluaciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEvaluaciones)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +66,35 @@
             this.gbTemas.TabStop = false;
             this.gbTemas.Text = "Temas";
             // 
+            // btnAniadirTema
+            // 
+            this.btnAniadirTema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAniadirTema.Location = new System.Drawing.Point(531, 192);
+            this.btnAniadirTema.Name = "btnAniadirTema";
+            this.btnAniadirTema.Size = new System.Drawing.Size(118, 23);
+            this.btnAniadirTema.TabIndex = 2;
+            this.btnAniadirTema.Text = "Añadir tema";
+            this.btnAniadirTema.UseVisualStyleBackColor = true;
+            this.btnAniadirTema.Click += new System.EventHandler(this.btnAniadirTema_Click);
+            // 
+            // btnEditarTema
+            // 
+            this.btnEditarTema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarTema.Location = new System.Drawing.Point(665, 192);
+            this.btnEditarTema.Name = "btnEditarTema";
+            this.btnEditarTema.Size = new System.Drawing.Size(122, 23);
+            this.btnEditarTema.TabIndex = 1;
+            this.btnEditarTema.Text = "Editar tema";
+            this.btnEditarTema.UseVisualStyleBackColor = true;
+            // 
+            // dgvTemas
+            // 
+            this.dgvTemas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTemas.Location = new System.Drawing.Point(18, 35);
+            this.dgvTemas.Name = "dgvTemas";
+            this.dgvTemas.Size = new System.Drawing.Size(769, 135);
+            this.dgvTemas.TabIndex = 0;
+            // 
             // gbEvaluaciones
             // 
             this.gbEvaluaciones.Controls.Add(this.dgvEvaluaciones);
@@ -78,52 +107,6 @@
             this.gbEvaluaciones.TabStop = false;
             this.gbEvaluaciones.Text = "Evaluaciones";
             // 
-            // dgvTemas
-            // 
-            this.dgvTemas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTemas.Location = new System.Drawing.Point(18, 35);
-            this.dgvTemas.Name = "dgvTemas";
-            this.dgvTemas.Size = new System.Drawing.Size(769, 135);
-            this.dgvTemas.TabIndex = 0;
-            // 
-            // btnEditarTema
-            // 
-            this.btnEditarTema.Location = new System.Drawing.Point(665, 192);
-            this.btnEditarTema.Name = "btnEditarTema";
-            this.btnEditarTema.Size = new System.Drawing.Size(122, 23);
-            this.btnEditarTema.TabIndex = 1;
-            this.btnEditarTema.Text = "Editar tema";
-            this.btnEditarTema.UseVisualStyleBackColor = true;
-            // 
-            // btnAniadirTema
-            // 
-            this.btnAniadirTema.Location = new System.Drawing.Point(531, 192);
-            this.btnAniadirTema.Name = "btnAniadirTema";
-            this.btnAniadirTema.Size = new System.Drawing.Size(118, 23);
-            this.btnAniadirTema.TabIndex = 2;
-            this.btnAniadirTema.Text = "Añadir tema";
-            this.btnAniadirTema.UseVisualStyleBackColor = true;
-            this.btnAniadirTema.Click += new System.EventHandler(this.btnAniadirTema_Click);
-            // 
-            // btnEditarEvaluacion
-            // 
-            this.btnEditarEvaluacion.Location = new System.Drawing.Point(665, 239);
-            this.btnEditarEvaluacion.Name = "btnEditarEvaluacion";
-            this.btnEditarEvaluacion.Size = new System.Drawing.Size(122, 23);
-            this.btnEditarEvaluacion.TabIndex = 0;
-            this.btnEditarEvaluacion.Text = "Editar evaluación";
-            this.btnEditarEvaluacion.UseVisualStyleBackColor = true;
-            // 
-            // btnAniadirEvaluacion
-            // 
-            this.btnAniadirEvaluacion.Location = new System.Drawing.Point(531, 239);
-            this.btnAniadirEvaluacion.Name = "btnAniadirEvaluacion";
-            this.btnAniadirEvaluacion.Size = new System.Drawing.Size(118, 23);
-            this.btnAniadirEvaluacion.TabIndex = 1;
-            this.btnAniadirEvaluacion.Text = "Añadir evaluacion";
-            this.btnAniadirEvaluacion.UseVisualStyleBackColor = true;
-            this.btnAniadirEvaluacion.Click += new System.EventHandler(this.btnAniadirEvaluacion_Click);
-            // 
             // dgvEvaluaciones
             // 
             this.dgvEvaluaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -132,11 +115,33 @@
             this.dgvEvaluaciones.Size = new System.Drawing.Size(769, 175);
             this.dgvEvaluaciones.TabIndex = 2;
             // 
+            // btnAniadirEvaluacion
+            // 
+            this.btnAniadirEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAniadirEvaluacion.Location = new System.Drawing.Point(489, 239);
+            this.btnAniadirEvaluacion.Name = "btnAniadirEvaluacion";
+            this.btnAniadirEvaluacion.Size = new System.Drawing.Size(149, 23);
+            this.btnAniadirEvaluacion.TabIndex = 1;
+            this.btnAniadirEvaluacion.Text = "Añadir evaluacion";
+            this.btnAniadirEvaluacion.UseVisualStyleBackColor = true;
+            this.btnAniadirEvaluacion.Click += new System.EventHandler(this.btnAniadirEvaluacion_Click);
+            // 
+            // btnEditarEvaluacion
+            // 
+            this.btnEditarEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarEvaluacion.Location = new System.Drawing.Point(644, 239);
+            this.btnEditarEvaluacion.Name = "btnEditarEvaluacion";
+            this.btnEditarEvaluacion.Size = new System.Drawing.Size(143, 23);
+            this.btnEditarEvaluacion.TabIndex = 0;
+            this.btnEditarEvaluacion.Text = "Editar evaluación";
+            this.btnEditarEvaluacion.UseVisualStyleBackColor = true;
+            // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(730, 607);
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Location = new System.Drawing.Point(719, 607);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(86, 23);
             this.btnGuardar.TabIndex = 4;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -154,8 +159,8 @@
             this.Name = "frmEditarClassroom";
             this.Text = "frmEditarClassroom";
             this.gbTemas.ResumeLayout(false);
-            this.gbEvaluaciones.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTemas)).EndInit();
+            this.gbEvaluaciones.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEvaluaciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

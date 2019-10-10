@@ -31,5 +31,10 @@ namespace Sinapxon.Administrador
             frmListaUsuarios formListaUsuario = new frmListaUsuarios("profesores");
             formListaUsuario.Visible = true;
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

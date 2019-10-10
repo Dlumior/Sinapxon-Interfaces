@@ -51,7 +51,7 @@
             // lblNickname
             // 
             this.lblNickname.AutoSize = true;
-            this.lblNickname.Location = new System.Drawing.Point(45, 259);
+            this.lblNickname.Location = new System.Drawing.Point(48, 255);
             this.lblNickname.Name = "lblNickname";
             this.lblNickname.Size = new System.Drawing.Size(55, 13);
             this.lblNickname.TabIndex = 0;
@@ -60,7 +60,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(45, 287);
+            this.lblPassword.Location = new System.Drawing.Point(48, 287);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(53, 13);
             this.lblPassword.TabIndex = 1;
@@ -96,7 +96,7 @@
             // lblDni
             // 
             this.lblDni.AutoSize = true;
-            this.lblDni.Location = new System.Drawing.Point(45, 171);
+            this.lblDni.Location = new System.Drawing.Point(48, 171);
             this.lblDni.Name = "lblDni";
             this.lblDni.Size = new System.Drawing.Size(26, 13);
             this.lblDni.TabIndex = 5;
@@ -123,7 +123,7 @@
             // 
             // txtNickname
             // 
-            this.txtNickname.Location = new System.Drawing.Point(195, 256);
+            this.txtNickname.Location = new System.Drawing.Point(195, 252);
             this.txtNickname.Name = "txtNickname";
             this.txtNickname.Size = new System.Drawing.Size(342, 20);
             this.txtNickname.TabIndex = 8;
@@ -172,9 +172,10 @@
             // 
             // btnRegistrarse
             // 
-            this.btnRegistrarse.Location = new System.Drawing.Point(462, 396);
+            this.btnRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarse.Location = new System.Drawing.Point(437, 389);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrarse.Size = new System.Drawing.Size(100, 30);
             this.btnRegistrarse.TabIndex = 15;
             this.btnRegistrarse.Text = "Registrarse";
             this.btnRegistrarse.UseVisualStyleBackColor = true;
@@ -182,7 +183,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 330);
+            this.label1.Location = new System.Drawing.Point(48, 323);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 13);
             this.label1.TabIndex = 16;
@@ -190,7 +191,7 @@
             // 
             // txtRepetirPassword
             // 
-            this.txtRepetirPassword.Location = new System.Drawing.Point(195, 330);
+            this.txtRepetirPassword.Location = new System.Drawing.Point(195, 323);
             this.txtRepetirPassword.Name = "txtRepetirPassword";
             this.txtRepetirPassword.Size = new System.Drawing.Size(342, 20);
             this.txtRepetirPassword.TabIndex = 17;

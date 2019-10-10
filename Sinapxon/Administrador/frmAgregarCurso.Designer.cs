@@ -114,6 +114,7 @@
             // 
             // txtCodigoCurso
             // 
+            this.txtCodigoCurso.BackColor = System.Drawing.Color.White;
             this.txtCodigoCurso.Location = new System.Drawing.Point(60, 101);
             this.txtCodigoCurso.Name = "txtCodigoCurso";
             this.txtCodigoCurso.Size = new System.Drawing.Size(267, 20);
@@ -121,6 +122,7 @@
             // 
             // txtNombreCurso
             // 
+            this.txtNombreCurso.BackColor = System.Drawing.Color.White;
             this.txtNombreCurso.Location = new System.Drawing.Point(63, 178);
             this.txtNombreCurso.Name = "txtNombreCurso";
             this.txtNombreCurso.Size = new System.Drawing.Size(354, 20);
@@ -144,9 +146,10 @@
             // 
             // btnAgregarRequisito
             // 
-            this.btnAgregarRequisito.Location = new System.Drawing.Point(673, 374);
+            this.btnAgregarRequisito.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarRequisito.Location = new System.Drawing.Point(649, 371);
             this.btnAgregarRequisito.Name = "btnAgregarRequisito";
-            this.btnAgregarRequisito.Size = new System.Drawing.Size(132, 23);
+            this.btnAgregarRequisito.Size = new System.Drawing.Size(156, 26);
             this.btnAgregarRequisito.TabIndex = 11;
             this.btnAgregarRequisito.Text = "Agregar requisito";
             this.btnAgregarRequisito.UseVisualStyleBackColor = true;
@@ -162,9 +165,10 @@
             // 
             // btnAgregarEspecialidad
             // 
-            this.btnAgregarEspecialidad.Location = new System.Drawing.Point(673, 531);
+            this.btnAgregarEspecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarEspecialidad.Location = new System.Drawing.Point(621, 531);
             this.btnAgregarEspecialidad.Name = "btnAgregarEspecialidad";
-            this.btnAgregarEspecialidad.Size = new System.Drawing.Size(131, 23);
+            this.btnAgregarEspecialidad.Size = new System.Drawing.Size(183, 23);
             this.btnAgregarEspecialidad.TabIndex = 13;
             this.btnAgregarEspecialidad.Text = "Agregar especialidad";
             this.btnAgregarEspecialidad.UseVisualStyleBackColor = true;
@@ -179,9 +183,10 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(729, 16);
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Location = new System.Drawing.Point(719, 16);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(85, 23);
             this.btnGuardar.TabIndex = 15;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;

@@ -50,6 +50,7 @@
             // 
             // btnAniadirClassroom
             // 
+            this.btnAniadirClassroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAniadirClassroom.Location = new System.Drawing.Point(736, 86);
             this.btnAniadirClassroom.Name = "btnAniadirClassroom";
             this.btnAniadirClassroom.Size = new System.Drawing.Size(116, 23);
@@ -77,6 +78,7 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(598, 84);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
@@ -86,6 +88,7 @@
             // 
             // btnAniadirTema
             // 
+            this.btnAniadirTema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAniadirTema.Location = new System.Drawing.Point(12, 582);
             this.btnAniadirTema.Name = "btnAniadirTema";
             this.btnAniadirTema.Size = new System.Drawing.Size(111, 23);
@@ -96,9 +99,10 @@
             // 
             // btnAniadirEvaluacion
             // 
+            this.btnAniadirEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAniadirEvaluacion.Location = new System.Drawing.Point(143, 582);
             this.btnAniadirEvaluacion.Name = "btnAniadirEvaluacion";
-            this.btnAniadirEvaluacion.Size = new System.Drawing.Size(113, 23);
+            this.btnAniadirEvaluacion.Size = new System.Drawing.Size(150, 23);
             this.btnAniadirEvaluacion.TabIndex = 7;
             this.btnAniadirEvaluacion.Text = "Añadir evaluación";
             this.btnAniadirEvaluacion.UseVisualStyleBackColor = true;
@@ -115,9 +119,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(736, 581);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(711, 581);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 23);
+            this.button1.Size = new System.Drawing.Size(140, 23);
             this.button1.TabIndex = 9;
             this.button1.Text = "Editar classroom";
             this.button1.UseVisualStyleBackColor = true;

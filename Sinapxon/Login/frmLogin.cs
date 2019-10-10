@@ -18,6 +18,7 @@ namespace Sinapxon.Login
         public frmLogin()
         {
             InitializeComponent();
+            pctLogoSinapxon.Image = Image.FromFile("Sinpaxon_Principal.png");
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -34,15 +35,17 @@ namespace Sinapxon.Login
             this.Visible = true;
             */
 
-            /*
+            
             frmProfesor formProfesor = new frmProfesor();
             formProfesor.Visible = true;
             this.Visible = true;
-            */
+            
 
+            /*
             frmAdministrador formAdministrador = new frmAdministrador();
             formAdministrador.Visible = true;
-            
+            this.Visible = true;
+            */
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -57,6 +60,11 @@ namespace Sinapxon.Login
             frmOvlideContrasenia formOlvideContrasenia = new frmOvlideContrasenia();
             formOlvideContrasenia.Visible = true;
             this.Visible = true;
+        }
+
+        private void pctImagenSinapxon_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

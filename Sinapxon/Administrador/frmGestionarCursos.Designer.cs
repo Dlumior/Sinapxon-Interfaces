@@ -70,6 +70,7 @@
             // 
             // btnAniadirCurso
             // 
+            this.btnAniadirCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAniadirCurso.Location = new System.Drawing.Point(680, 33);
             this.btnAniadirCurso.Name = "btnAniadirCurso";
             this.btnAniadirCurso.Size = new System.Drawing.Size(112, 23);
@@ -80,6 +81,7 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(568, 33);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
@@ -97,9 +99,10 @@
             // 
             // btnEditarCurso
             // 
-            this.btnEditarCurso.Location = new System.Drawing.Point(739, 585);
+            this.btnEditarCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarCurso.Location = new System.Drawing.Point(702, 585);
             this.btnEditarCurso.Name = "btnEditarCurso";
-            this.btnEditarCurso.Size = new System.Drawing.Size(75, 23);
+            this.btnEditarCurso.Size = new System.Drawing.Size(112, 23);
             this.btnEditarCurso.TabIndex = 4;
             this.btnEditarCurso.Text = "Editar curso";
             this.btnEditarCurso.UseVisualStyleBackColor = true;
@@ -109,7 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(864, 681);
             this.Controls.Add(this.btnEditarCurso);
             this.Controls.Add(this.dgvCursos);
