@@ -369,7 +369,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\SINAPXON_LOGO.png" />
+  </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxShockwaveFlashObjects">
       <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
@@ -388,6 +390,18 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ContenedorTXT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_account_circle_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_lock_white_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

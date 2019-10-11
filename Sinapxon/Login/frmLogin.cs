@@ -18,7 +18,7 @@ namespace Sinapxon.Login
         public frmLogin()
         {
             InitializeComponent();
-            pctLogoSinapxon.Image = Image.FromFile("Sinpaxon_Principal.png");
+            //pctLogoSinapxon.Image = Image.FromFile("Imagenes/SINAPXON_LOGO.png");
         }
 
         private void Button1_Click(object sender, EventArgs e)
