@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -392,9 +393,6 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Barra.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ContenedorTXT.png" />
   </ItemGroup>
   <ItemGroup>
@@ -402,6 +400,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseline_lock_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lina-_P-light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra_P-Light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra_P-Blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_find_in_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_account_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_account_circle_Big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_exit_to_app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bloque_S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bloque-G3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-G4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-G41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barra-PD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_description.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_assignment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_check_circle_white_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

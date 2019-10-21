@@ -60,13 +60,13 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(17, 140);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(836, 447);
+            this.dataGridView1.Size = new System.Drawing.Size(769, 447);
             this.dataGridView1.TabIndex = 2;
             // 
             // btnIrTema
             // 
             this.btnIrTema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIrTema.Location = new System.Drawing.Point(752, 623);
+            this.btnIrTema.Location = new System.Drawing.Point(685, 607);
             this.btnIrTema.Name = "btnIrTema";
             this.btnIrTema.Size = new System.Drawing.Size(101, 23);
             this.btnIrTema.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 681);
+            this.ClientSize = new System.Drawing.Size(798, 642);
             this.Controls.Add(this.btnIrTema);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnAtras);

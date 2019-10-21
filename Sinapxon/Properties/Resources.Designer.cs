@@ -63,9 +63,49 @@ namespace Sinapxon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Barra {
+        internal static System.Drawing.Bitmap Barra_G4 {
             get {
-                object obj = ResourceManager.GetObject("Barra", resourceCulture);
+                object obj = ResourceManager.GetObject("Barra-G4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barra_P_Blanco {
+            get {
+                object obj = ResourceManager.GetObject("Barra_P-Blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barra_P_Light {
+            get {
+                object obj = ResourceManager.GetObject("Barra_P-Light", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Barra_PD {
+            get {
+                object obj = ResourceManager.GetObject("Barra-PD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_account_circle_Big {
+            get {
+                object obj = ResourceManager.GetObject("baseline_account_circle_Big", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +123,46 @@ namespace Sinapxon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_book {
+            get {
+                object obj = ResourceManager.GetObject("baseline_book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_check_circle_white_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_check_circle_white_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_exit_to_app {
+            get {
+                object obj = ResourceManager.GetObject("baseline_exit_to_app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_find_in_page {
+            get {
+                object obj = ResourceManager.GetObject("baseline_find_in_page", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_lock_white_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_lock_white_18dp", resourceCulture);
@@ -93,9 +173,49 @@ namespace Sinapxon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bloque_G3 {
+            get {
+                object obj = ResourceManager.GetObject("Bloque-G3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ContenedorTXT {
             get {
                 object obj = ResourceManager.GetObject("ContenedorTXT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_assignment {
+            get {
+                object obj = ResourceManager.GetObject("round_assignment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_description {
+            get {
+                object obj = ResourceManager.GetObject("round_description", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_search {
+            get {
+                object obj = ResourceManager.GetObject("round_search", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

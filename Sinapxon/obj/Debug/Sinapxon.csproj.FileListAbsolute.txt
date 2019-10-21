@@ -178,7 +178,6 @@ D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\bin\Debug\Sinapxon.exe
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\bin\Debug\Sinapxon.pdb
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\bin\Debug\Interop.ShockwaveFlashObjects.dll
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
-D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csprojAssemblyReference.cache
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Interop.ShockwaveFlashObjects.dll
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csproj.ResolveComReference.cache
@@ -219,3 +218,4 @@ D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Propertie
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csproj.GenerateResource.cache
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.exe
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.pdb
+D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csprojAssemblyReference.cache

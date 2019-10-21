@@ -56,7 +56,7 @@
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(729, 70);
+            this.btnBuscar.Location = new System.Drawing.Point(727, 70);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 2;
@@ -68,13 +68,13 @@
             this.dgvListaCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaCursos.Location = new System.Drawing.Point(17, 150);
             this.dgvListaCursos.Name = "dgvListaCursos";
-            this.dgvListaCursos.Size = new System.Drawing.Size(787, 435);
+            this.dgvListaCursos.Size = new System.Drawing.Size(785, 435);
             this.dgvListaCursos.TabIndex = 3;
             // 
             // btnVerCurso
             // 
             this.btnVerCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerCurso.Location = new System.Drawing.Point(694, 622);
+            this.btnVerCurso.Location = new System.Drawing.Point(692, 625);
             this.btnVerCurso.Name = "btnVerCurso";
             this.btnVerCurso.Size = new System.Drawing.Size(110, 23);
             this.btnVerCurso.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 681);
+            this.ClientSize = new System.Drawing.Size(814, 681);
             this.Controls.Add(this.btnVerCurso);
             this.Controls.Add(this.dgvListaCursos);
             this.Controls.Add(this.btnBuscar);

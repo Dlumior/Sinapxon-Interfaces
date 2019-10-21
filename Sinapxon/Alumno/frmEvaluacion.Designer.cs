@@ -49,12 +49,12 @@
             this.dgvEntregables.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEntregables.Location = new System.Drawing.Point(17, 104);
             this.dgvEntregables.Name = "dgvEntregables";
-            this.dgvEntregables.Size = new System.Drawing.Size(826, 452);
+            this.dgvEntregables.Size = new System.Drawing.Size(769, 452);
             this.dgvEntregables.TabIndex = 1;
             // 
             // btnSubirArchivo
             // 
-            this.btnSubirArchivo.Location = new System.Drawing.Point(680, 613);
+            this.btnSubirArchivo.Location = new System.Drawing.Point(614, 596);
             this.btnSubirArchivo.Name = "btnSubirArchivo";
             this.btnSubirArchivo.Size = new System.Drawing.Size(172, 23);
             this.btnSubirArchivo.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 681);
+            this.ClientSize = new System.Drawing.Size(948, 642);
             this.Controls.Add(this.btnSubirArchivo);
             this.Controls.Add(this.dgvEntregables);
             this.Controls.Add(this.label1);

@@ -16,7 +16,6 @@ namespace Sinapxon.Alumno
         public frmAlumno()
         {
             InitializeComponent();
-            pctLogoSinapxon.Image = Image.FromFile("Sinpaxon_Principal.png");
         }
 
         public void openChildForm(Form formularioHijo)
@@ -37,7 +36,7 @@ namespace Sinapxon.Alumno
 
         private void BtnMisClassrooms_Click(object sender, EventArgs e)
         {
-            frmMisClassrooms misClassrooms = new frmMisClassrooms();
+            frmMisClassrooms misClassrooms = new frmMisClassrooms(this);
             openChildForm(misClassrooms);
         }
 

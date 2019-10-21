@@ -48,24 +48,40 @@
             this.txtRepetirPassword = new System.Windows.Forms.TextBox();
             this.gbDatosPersonales = new System.Windows.Forms.GroupBox();
             this.gbDatosCuenta = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pbLineNombres = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.gbDatosPersonales.SuspendLayout();
             this.gbDatosCuenta.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineNombres)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNickname
@@ -166,78 +182,78 @@
             // txtNickname
             // 
             this.txtNickname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNickname.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNickname.ForeColor = System.Drawing.Color.White;
             this.txtNickname.Location = new System.Drawing.Point(456, 60);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(342, 27);
+            this.txtNickname.Size = new System.Drawing.Size(342, 20);
             this.txtNickname.TabIndex = 8;
             // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.White;
             this.txtPassword.Location = new System.Drawing.Point(41, 168);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(342, 27);
+            this.txtPassword.Size = new System.Drawing.Size(342, 20);
             this.txtPassword.TabIndex = 9;
             // 
             // txtNombres
             // 
             this.txtNombres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtNombres.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombres.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombres.ForeColor = System.Drawing.Color.White;
             this.txtNombres.Location = new System.Drawing.Point(40, 57);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(342, 27);
+            this.txtNombres.Size = new System.Drawing.Size(342, 20);
             this.txtNombres.TabIndex = 10;
             // 
             // txtApellidoPaterno
             // 
             this.txtApellidoPaterno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtApellidoPaterno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtApellidoPaterno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtApellidoPaterno.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidoPaterno.ForeColor = System.Drawing.Color.White;
             this.txtApellidoPaterno.Location = new System.Drawing.Point(40, 158);
             this.txtApellidoPaterno.Name = "txtApellidoPaterno";
-            this.txtApellidoPaterno.Size = new System.Drawing.Size(342, 27);
+            this.txtApellidoPaterno.Size = new System.Drawing.Size(342, 20);
             this.txtApellidoPaterno.TabIndex = 11;
             // 
             // txtApellidoMaterno
             // 
             this.txtApellidoMaterno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtApellidoMaterno.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtApellidoMaterno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtApellidoMaterno.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidoMaterno.ForeColor = System.Drawing.Color.White;
             this.txtApellidoMaterno.Location = new System.Drawing.Point(456, 158);
             this.txtApellidoMaterno.Name = "txtApellidoMaterno";
-            this.txtApellidoMaterno.Size = new System.Drawing.Size(342, 27);
+            this.txtApellidoMaterno.Size = new System.Drawing.Size(342, 20);
             this.txtApellidoMaterno.TabIndex = 12;
             // 
             // txtDni
             // 
             this.txtDni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtDni.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDni.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDni.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDni.ForeColor = System.Drawing.Color.White;
             this.txtDni.Location = new System.Drawing.Point(456, 57);
             this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(342, 27);
+            this.txtDni.Size = new System.Drawing.Size(342, 20);
             this.txtDni.TabIndex = 13;
             // 
             // txtCorreo
             // 
             this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreo.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.ForeColor = System.Drawing.Color.White;
             this.txtCorreo.Location = new System.Drawing.Point(40, 60);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(342, 27);
+            this.txtCorreo.Size = new System.Drawing.Size(342, 20);
             this.txtCorreo.TabIndex = 14;
             // 
             // btnRegistrarse
@@ -269,16 +285,20 @@
             // txtRepetirPassword
             // 
             this.txtRepetirPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtRepetirPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRepetirPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRepetirPassword.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRepetirPassword.ForeColor = System.Drawing.Color.White;
             this.txtRepetirPassword.Location = new System.Drawing.Point(456, 168);
             this.txtRepetirPassword.Name = "txtRepetirPassword";
-            this.txtRepetirPassword.Size = new System.Drawing.Size(342, 27);
+            this.txtRepetirPassword.Size = new System.Drawing.Size(342, 20);
             this.txtRepetirPassword.TabIndex = 17;
             // 
             // gbDatosPersonales
             // 
+            this.gbDatosPersonales.Controls.Add(this.pictureBox11);
+            this.gbDatosPersonales.Controls.Add(this.pictureBox10);
+            this.gbDatosPersonales.Controls.Add(this.pictureBox9);
+            this.gbDatosPersonales.Controls.Add(this.pbLineNombres);
             this.gbDatosPersonales.Controls.Add(this.lblNombres);
             this.gbDatosPersonales.Controls.Add(this.txtNombres);
             this.gbDatosPersonales.Controls.Add(this.lblDni);
@@ -302,6 +322,10 @@
             // 
             // gbDatosCuenta
             // 
+            this.gbDatosCuenta.Controls.Add(this.pictureBox15);
+            this.gbDatosCuenta.Controls.Add(this.pictureBox14);
+            this.gbDatosCuenta.Controls.Add(this.pictureBox13);
+            this.gbDatosCuenta.Controls.Add(this.pictureBox12);
             this.gbDatosCuenta.Controls.Add(this.lblCorreo);
             this.gbDatosCuenta.Controls.Add(this.txtCorreo);
             this.gbDatosCuenta.Controls.Add(this.txtRepetirPassword);
@@ -322,46 +346,6 @@
             this.gbDatosCuenta.TabIndex = 19;
             this.gbDatosCuenta.TabStop = false;
             this.gbDatosCuenta.Text = "Datos de la cuenta";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(404, 82);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
-            this.pictureBox2.Location = new System.Drawing.Point(426, 26);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(404, 82);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 122);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(404, 82);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
-            this.pictureBox4.Location = new System.Drawing.Point(426, 122);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(404, 82);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 23;
-            this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
@@ -403,6 +387,134 @@
             this.pictureBox8.TabIndex = 27;
             this.pictureBox8.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
+            this.pictureBox2.Location = new System.Drawing.Point(426, 26);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(404, 82);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
+            this.pictureBox1.Location = new System.Drawing.Point(16, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(404, 82);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
+            this.pictureBox3.Location = new System.Drawing.Point(16, 122);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(404, 82);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 22;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Sinapxon.Properties.Resources.ContenedorTXT;
+            this.pictureBox4.Location = new System.Drawing.Point(426, 122);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(404, 82);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 23;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pbLineNombres
+            // 
+            this.pbLineNombres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pbLineNombres.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pbLineNombres.Location = new System.Drawing.Point(41, 81);
+            this.pbLineNombres.Name = "pbLineNombres";
+            this.pbLineNombres.Size = new System.Drawing.Size(342, 3);
+            this.pbLineNombres.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLineNombres.TabIndex = 20;
+            this.pbLineNombres.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox9.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox9.Location = new System.Drawing.Point(456, 81);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 24;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox10.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox10.Location = new System.Drawing.Point(40, 182);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 25;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox11.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox11.Location = new System.Drawing.Point(456, 182);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 21;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox12.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox12.Location = new System.Drawing.Point(41, 84);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 26;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox13.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox13.Location = new System.Drawing.Point(456, 84);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 28;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox14.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox14.Location = new System.Drawing.Point(41, 192);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 29;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pictureBox15.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pictureBox15.Location = new System.Drawing.Point(456, 192);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(342, 3);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 30;
+            this.pictureBox15.TabStop = false;
+            // 
             // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -419,14 +531,22 @@
             this.gbDatosPersonales.PerformLayout();
             this.gbDatosCuenta.ResumeLayout(false);
             this.gbDatosCuenta.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineNombres)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -462,5 +582,13 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pbLineNombres;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox12;
     }
 }

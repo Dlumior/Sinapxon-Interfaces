@@ -49,7 +49,7 @@
             this.dgvEvaluaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEvaluaciones.Location = new System.Drawing.Point(17, 143);
             this.dgvEvaluaciones.Name = "dgvEvaluaciones";
-            this.dgvEvaluaciones.Size = new System.Drawing.Size(835, 439);
+            this.dgvEvaluaciones.Size = new System.Drawing.Size(769, 439);
             this.dgvEvaluaciones.TabIndex = 1;
             // 
             // button1
@@ -68,7 +68,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(864, 681);
+            this.ClientSize = new System.Drawing.Size(948, 642);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvEvaluaciones);
             this.Controls.Add(this.label1);

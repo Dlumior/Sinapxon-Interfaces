@@ -53,14 +53,14 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 456);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(835, 144);
+            this.dataGridView1.Size = new System.Drawing.Size(774, 144);
             this.dataGridView1.TabIndex = 1;
             // 
             // gbDescripcion
             // 
             this.gbDescripcion.Location = new System.Drawing.Point(17, 70);
             this.gbDescripcion.Name = "gbDescripcion";
-            this.gbDescripcion.Size = new System.Drawing.Size(835, 100);
+            this.gbDescripcion.Size = new System.Drawing.Size(769, 100);
             this.gbDescripcion.TabIndex = 2;
             this.gbDescripcion.TabStop = false;
             this.gbDescripcion.Text = "Descripción";
@@ -68,15 +68,14 @@
             // webBrowser2
             // 
             this.webBrowser2.Location = new System.Drawing.Point(17, 186);
-            this.webBrowser2.MinimumSize = new System.Drawing.Size(830, 243);
             this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.Size = new System.Drawing.Size(830, 243);
+            this.webBrowser2.Size = new System.Drawing.Size(769, 243);
             this.webBrowser2.TabIndex = 3;
             // 
             // btnDescargar
             // 
             this.btnDescargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDescargar.Location = new System.Drawing.Point(675, 628);
+            this.btnDescargar.Location = new System.Drawing.Point(614, 616);
             this.btnDescargar.Name = "btnDescargar";
             this.btnDescargar.Size = new System.Drawing.Size(172, 23);
             this.btnDescargar.TabIndex = 4;
@@ -86,7 +85,7 @@
             // btnDescargarEvaluacion
             // 
             this.btnDescargarEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDescargarEvaluacion.Location = new System.Drawing.Point(12, 627);
+            this.btnDescargarEvaluacion.Location = new System.Drawing.Point(12, 616);
             this.btnDescargarEvaluacion.Name = "btnDescargarEvaluacion";
             this.btnDescargarEvaluacion.Size = new System.Drawing.Size(154, 23);
             this.btnDescargarEvaluacion.TabIndex = 5;
@@ -96,7 +95,7 @@
             // btnSubirEvaluacion
             // 
             this.btnSubirEvaluacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubirEvaluacion.Location = new System.Drawing.Point(186, 628);
+            this.btnSubirEvaluacion.Location = new System.Drawing.Point(186, 616);
             this.btnSubirEvaluacion.Name = "btnSubirEvaluacion";
             this.btnSubirEvaluacion.Size = new System.Drawing.Size(140, 23);
             this.btnSubirEvaluacion.TabIndex = 6;
@@ -107,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 681);
+            this.ClientSize = new System.Drawing.Size(798, 642);
             this.Controls.Add(this.btnSubirEvaluacion);
             this.Controls.Add(this.btnDescargarEvaluacion);
             this.Controls.Add(this.btnDescargar);
@@ -117,6 +116,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmTema";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTema";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

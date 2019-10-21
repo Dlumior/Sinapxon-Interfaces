@@ -28,80 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTemas = new System.Windows.Forms.Button();
-            this.btnEvaluaciones = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.btnX = new System.Windows.Forms.Button();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.tabPageTema = new System.Windows.Forms.TabPage();
+            this.tabPageEvaluacion = new System.Windows.Forms.TabPage();
+            this.tabPageNotas = new System.Windows.Forms.TabPage();
+            this.tabControl.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnTemas
-            // 
-            this.btnTemas.BackColor = System.Drawing.Color.BlueViolet;
-            this.btnTemas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTemas.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnTemas.Location = new System.Drawing.Point(141, 195);
-            this.btnTemas.Name = "btnTemas";
-            this.btnTemas.Size = new System.Drawing.Size(229, 206);
-            this.btnTemas.TabIndex = 0;
-            this.btnTemas.Text = "TEMAS";
-            this.btnTemas.UseVisualStyleBackColor = false;
-            this.btnTemas.Click += new System.EventHandler(this.BtnTemas_Click);
-            // 
-            // btnEvaluaciones
-            // 
-            this.btnEvaluaciones.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btnEvaluaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEvaluaciones.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEvaluaciones.Location = new System.Drawing.Point(465, 195);
-            this.btnEvaluaciones.Name = "btnEvaluaciones";
-            this.btnEvaluaciones.Size = new System.Drawing.Size(229, 206);
-            this.btnEvaluaciones.TabIndex = 1;
-            this.btnEvaluaciones.Text = "EVALUACIONES";
-            this.btnEvaluaciones.UseVisualStyleBackColor = false;
-            this.btnEvaluaciones.Click += new System.EventHandler(this.BtnEvaluaciones_Click);
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(12, 46);
+            this.lblTitulo.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(12, 20);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(326, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(207, 29);
             this.lblTitulo.TabIndex = 2;
-            this.lblTitulo.Text = "Lenguaje de programación";
+            this.lblTitulo.Text = "Nombre del curso";
             // 
-            // btnX
+            // tabControl
             // 
-            this.btnX.Location = new System.Drawing.Point(12, 12);
-            this.btnX.Name = "btnX";
-            this.btnX.Size = new System.Drawing.Size(75, 23);
-            this.btnX.TabIndex = 3;
-            this.btnX.Text = "X";
-            this.btnX.UseVisualStyleBackColor = true;
-            this.btnX.Click += new System.EventHandler(this.BtnX_Click);
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl.Controls.Add(this.tabPageTema);
+            this.tabControl.Controls.Add(this.tabPageEvaluacion);
+            this.tabControl.Controls.Add(this.tabPageNotas);
+            this.tabControl.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl.Location = new System.Drawing.Point(22, 71);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.Padding = new System.Drawing.Point(80, 3);
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(920, 580);
+            this.tabControl.TabIndex = 3;
+            // 
+            // tabPageTema
+            // 
+            this.tabPageTema.AutoScroll = true;
+            this.tabPageTema.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.tabPageTema.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabPageTema.Location = new System.Drawing.Point(4, 32);
+            this.tabPageTema.Name = "tabPageTema";
+            this.tabPageTema.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageTema.Size = new System.Drawing.Size(912, 544);
+            this.tabPageTema.TabIndex = 0;
+            this.tabPageTema.Text = "Temas";
+            // 
+            // tabPageEvaluacion
+            // 
+            this.tabPageEvaluacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.tabPageEvaluacion.Location = new System.Drawing.Point(4, 32);
+            this.tabPageEvaluacion.Name = "tabPageEvaluacion";
+            this.tabPageEvaluacion.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageEvaluacion.Size = new System.Drawing.Size(912, 544);
+            this.tabPageEvaluacion.TabIndex = 1;
+            this.tabPageEvaluacion.Text = "Evaluaciones";
+            // 
+            // tabPageNotas
+            // 
+            this.tabPageNotas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.tabPageNotas.Location = new System.Drawing.Point(4, 32);
+            this.tabPageNotas.Name = "tabPageNotas";
+            this.tabPageNotas.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageNotas.Size = new System.Drawing.Size(912, 544);
+            this.tabPageNotas.TabIndex = 2;
+            this.tabPageNotas.Text = "Notas";
             // 
             // frmMiClassroom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 681);
-            this.Controls.Add(this.btnX);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(189)))), ((int)(((byte)(189)))));
+            this.ClientSize = new System.Drawing.Size(964, 681);
+            this.Controls.Add(this.tabControl);
             this.Controls.Add(this.lblTitulo);
-            this.Controls.Add(this.btnEvaluaciones);
-            this.Controls.Add(this.btnTemas);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMiClassroom";
             this.Text = "frmMiClassroom";
+            this.tabControl.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnTemas;
-        private System.Windows.Forms.Button btnEvaluaciones;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.TabPage tabPageTema;
+        private System.Windows.Forms.TabPage tabPageEvaluacion;
+        private System.Windows.Forms.TabPage tabPageNotas;
     }
 }

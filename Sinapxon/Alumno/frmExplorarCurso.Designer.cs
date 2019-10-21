@@ -50,13 +50,13 @@
             this.dgvClassrooms.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClassrooms.Location = new System.Drawing.Point(17, 231);
             this.dgvClassrooms.Name = "dgvClassrooms";
-            this.dgvClassrooms.Size = new System.Drawing.Size(819, 289);
+            this.dgvClassrooms.Size = new System.Drawing.Size(769, 289);
             this.dgvClassrooms.TabIndex = 1;
             // 
             // btnVerClassroom
             // 
             this.btnVerClassroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerClassroom.Location = new System.Drawing.Point(713, 575);
+            this.btnVerClassroom.Location = new System.Drawing.Point(663, 584);
             this.btnVerClassroom.Name = "btnVerClassroom";
             this.btnVerClassroom.Size = new System.Drawing.Size(123, 23);
             this.btnVerClassroom.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             this.gbRequisitos.Location = new System.Drawing.Point(17, 90);
             this.gbRequisitos.Name = "gbRequisitos";
-            this.gbRequisitos.Size = new System.Drawing.Size(819, 100);
+            this.gbRequisitos.Size = new System.Drawing.Size(769, 100);
             this.gbRequisitos.TabIndex = 3;
             this.gbRequisitos.TabStop = false;
             this.gbRequisitos.Text = "Requisitos";
@@ -77,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(848, 642);
+            this.ClientSize = new System.Drawing.Size(798, 642);
             this.Controls.Add(this.gbRequisitos);
             this.Controls.Add(this.btnVerClassroom);
             this.Controls.Add(this.dgvClassrooms);

@@ -35,9 +35,13 @@
             this.rbNickname = new System.Windows.Forms.RadioButton();
             this.rbEmail = new System.Windows.Forms.RadioButton();
             this.btnEnviar = new System.Windows.Forms.Button();
+            this.pbLineNickname = new System.Windows.Forms.PictureBox();
+            this.pbLineEmail = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gbMetodoRecuparacion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineNickname)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineEmail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -58,25 +62,27 @@
             // txtCorreo
             // 
             this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreo.ForeColor = System.Drawing.Color.White;
-            this.txtCorreo.Location = new System.Drawing.Point(172, 47);
+            this.txtCorreo.Location = new System.Drawing.Point(163, 50);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(386, 27);
+            this.txtCorreo.Size = new System.Drawing.Size(386, 20);
             this.txtCorreo.TabIndex = 2;
             // 
             // textNickName
             // 
             this.textNickName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.textNickName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textNickName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textNickName.ForeColor = System.Drawing.Color.White;
-            this.textNickName.Location = new System.Drawing.Point(172, 128);
+            this.textNickName.Location = new System.Drawing.Point(163, 128);
             this.textNickName.Name = "textNickName";
-            this.textNickName.Size = new System.Drawing.Size(386, 27);
+            this.textNickName.Size = new System.Drawing.Size(386, 20);
             this.textNickName.TabIndex = 7;
             // 
             // gbMetodoRecuparacion
             // 
+            this.gbMetodoRecuparacion.Controls.Add(this.pbLineNickname);
+            this.gbMetodoRecuparacion.Controls.Add(this.pbLineEmail);
             this.gbMetodoRecuparacion.Controls.Add(this.rbNickname);
             this.gbMetodoRecuparacion.Controls.Add(this.rbEmail);
             this.gbMetodoRecuparacion.Controls.Add(this.txtCorreo);
@@ -97,7 +103,7 @@
             // 
             this.rbNickname.AutoSize = true;
             this.rbNickname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.rbNickname.Location = new System.Drawing.Point(37, 131);
+            this.rbNickname.Location = new System.Drawing.Point(30, 126);
             this.rbNickname.Name = "rbNickname";
             this.rbNickname.Size = new System.Drawing.Size(132, 23);
             this.rbNickname.TabIndex = 9;
@@ -109,7 +115,7 @@
             // 
             this.rbEmail.AutoSize = true;
             this.rbEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
-            this.rbEmail.Location = new System.Drawing.Point(37, 48);
+            this.rbEmail.Location = new System.Drawing.Point(30, 48);
             this.rbEmail.Name = "rbEmail";
             this.rbEmail.Size = new System.Drawing.Size(106, 23);
             this.rbEmail.TabIndex = 8;
@@ -130,6 +136,28 @@
             this.btnEnviar.TabIndex = 9;
             this.btnEnviar.Text = "Enviar contraseña";
             this.btnEnviar.UseVisualStyleBackColor = false;
+            // 
+            // pbLineNickname
+            // 
+            this.pbLineNickname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pbLineNickname.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pbLineNickname.Location = new System.Drawing.Point(163, 146);
+            this.pbLineNickname.Name = "pbLineNickname";
+            this.pbLineNickname.Size = new System.Drawing.Size(386, 3);
+            this.pbLineNickname.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLineNickname.TabIndex = 12;
+            this.pbLineNickname.TabStop = false;
+            // 
+            // pbLineEmail
+            // 
+            this.pbLineEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pbLineEmail.Image = global::Sinapxon.Properties.Resources.Barra_P_Blanco;
+            this.pbLineEmail.Location = new System.Drawing.Point(163, 68);
+            this.pbLineEmail.Name = "pbLineEmail";
+            this.pbLineEmail.Size = new System.Drawing.Size(386, 3);
+            this.pbLineEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLineEmail.TabIndex = 10;
+            this.pbLineEmail.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -166,6 +194,8 @@
             this.Text = "frmOvlideContrasenia";
             this.gbMetodoRecuparacion.ResumeLayout(false);
             this.gbMetodoRecuparacion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineNickname)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLineEmail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -184,5 +214,7 @@
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pbLineEmail;
+        private System.Windows.Forms.PictureBox pbLineNickname;
     }
 }
