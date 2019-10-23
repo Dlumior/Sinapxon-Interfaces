@@ -135,10 +135,11 @@ namespace Sinapxon.Alumno
             Button btnIrClassrom = new Button();
 
             btnIrClassrom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            btnIrClassrom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            btnIrClassrom.BackColor = System.Drawing.Color.FromArgb(224, 224, 224);
             btnIrClassrom.FlatAppearance.BorderSize = 0;
             btnIrClassrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnIrClassrom.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btnIrClassrom.ForeColor = System.Drawing.Color.Black;
             btnIrClassrom.Location = new System.Drawing.Point(636, 74+altura);
             btnIrClassrom.Name = "btnIrClassrom";
             btnIrClassrom.Size = new System.Drawing.Size(182, 49);
@@ -171,7 +172,7 @@ namespace Sinapxon.Alumno
 
         private void BtnIrClassroom_Click(object sender, EventArgs e)
         {
-            frmMiClassroom formMiClassroom = new frmMiClassroom();
+            frmMiClassroom formMiClassroom = new frmMiClassroom(_padre);
             _padre.openChildForm(formMiClassroom);
         }
     }

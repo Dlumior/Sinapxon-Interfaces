@@ -12,7 +12,6 @@ namespace Sinapxon.Alumno
 {
     public partial class frmTema : Form
     {
-        private WebBrowser webBrowser1 = new WebBrowser();
 
         public frmTema()
         {
@@ -25,7 +24,8 @@ namespace Sinapxon.Alumno
             var embed = "<html><head>" +
             "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"/>" +
             "</head><body>" +
-            "<iframe width=\"300\" src=\"{0}\"" +
+            "<iframe width=\"520\" src=\"{0}\"" +
+            "<iframe height=\"260\" src=\"{0}\"" +
             "frameborder = \"0\" allow = \"autoplay; encrypted-media\" allowfullscreen></iframe>" +
             "</body></html>";
             //var url = "https://www.youtube.com/embed/L6ZgzJKfERM";

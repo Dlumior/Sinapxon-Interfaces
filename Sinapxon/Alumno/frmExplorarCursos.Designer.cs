@@ -28,53 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmExplorarCursos));
             this.lblExplorarCursos = new System.Windows.Forms.Label();
-            this.txtBuscarCurso = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
-            this.dgvListaCursos = new System.Windows.Forms.DataGridView();
             this.btnVerCurso = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaCursos)).BeginInit();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.panelContenedorCursos = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblExplorarCursos
             // 
             this.lblExplorarCursos.AutoSize = true;
-            this.lblExplorarCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExplorarCursos.Location = new System.Drawing.Point(12, 9);
+            this.lblExplorarCursos.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExplorarCursos.Location = new System.Drawing.Point(19, 12);
             this.lblExplorarCursos.Name = "lblExplorarCursos";
-            this.lblExplorarCursos.Size = new System.Drawing.Size(200, 29);
+            this.lblExplorarCursos.Size = new System.Drawing.Size(186, 29);
             this.lblExplorarCursos.TabIndex = 0;
             this.lblExplorarCursos.Text = "Explorar Cursos";
-            // 
-            // txtBuscarCurso
-            // 
-            this.txtBuscarCurso.Location = new System.Drawing.Point(17, 72);
-            this.txtBuscarCurso.Name = "txtBuscarCurso";
-            this.txtBuscarCurso.Size = new System.Drawing.Size(685, 20);
-            this.txtBuscarCurso.TabIndex = 1;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(727, 70);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
-            // dgvListaCursos
-            // 
-            this.dgvListaCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListaCursos.Location = new System.Drawing.Point(17, 150);
-            this.dgvListaCursos.Name = "dgvListaCursos";
-            this.dgvListaCursos.Size = new System.Drawing.Size(785, 435);
-            this.dgvListaCursos.TabIndex = 3;
             // 
             // btnVerCurso
             // 
             this.btnVerCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerCurso.Location = new System.Drawing.Point(692, 625);
+            this.btnVerCurso.Location = new System.Drawing.Point(757, 12);
             this.btnVerCurso.Name = "btnVerCurso";
             this.btnVerCurso.Size = new System.Drawing.Size(110, 23);
             this.btnVerCurso.TabIndex = 4;
@@ -82,20 +63,92 @@
             this.btnVerCurso.UseVisualStyleBackColor = true;
             this.btnVerCurso.Click += new System.EventHandler(this.BtnVerCurso_Click);
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(762, 66);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(132, 58);
+            this.btnBuscar.TabIndex = 15;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            // 
+            // txtBuscar
+            // 
+            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBuscar.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(105, 84);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(619, 23);
+            this.txtBuscar.TabIndex = 14;
+            // 
+            // panelContenedorCursos
+            // 
+            this.panelContenedorCursos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.panelContenedorCursos.Location = new System.Drawing.Point(33, 152);
+            this.panelContenedorCursos.Name = "panelContenedorCursos";
+            this.panelContenedorCursos.Size = new System.Drawing.Size(882, 517);
+            this.panelContenedorCursos.TabIndex = 16;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pictureBox4.Image = global::Sinapxon.Properties.Resources.round_search;
+            this.pictureBox4.Location = new System.Drawing.Point(67, 79);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 33);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(42, 66);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(714, 58);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = global::Sinapxon.Properties.Resources.Bloque_G3;
+            this.pictureBox2.Location = new System.Drawing.Point(24, 55);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(900, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
             // frmExplorarCursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 681);
-            this.Controls.Add(this.btnVerCurso);
-            this.Controls.Add(this.dgvListaCursos);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(189)))), ((int)(((byte)(189)))));
+            this.ClientSize = new System.Drawing.Size(964, 681);
+            this.Controls.Add(this.panelContenedorCursos);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.txtBuscarCurso);
+            this.Controls.Add(this.txtBuscar);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btnVerCurso);
             this.Controls.Add(this.lblExplorarCursos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmExplorarCursos";
             this.Text = "frmExplorarCursos";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaCursos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,9 +157,12 @@
         #endregion
 
         private System.Windows.Forms.Label lblExplorarCursos;
-        private System.Windows.Forms.TextBox txtBuscarCurso;
-        private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.DataGridView dgvListaCursos;
         private System.Windows.Forms.Button btnVerCurso;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panelContenedorCursos;
     }
 }
