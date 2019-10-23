@@ -21,6 +21,13 @@ namespace Sinapxon.Alumno
             crearElemento();
         }
 
+        public frmExplorarCursos(frmAlumno padre)
+        {
+            _padre = padre;
+            InitializeComponent();
+            crearElemento();
+        }
+
         public void crearElemento()
         {
             /*
@@ -117,7 +124,7 @@ namespace Sinapxon.Alumno
         private void BtnVerCurso_Click(object sender, EventArgs e)
         {
             frmExplorarCurso formExplorarCurso = new frmExplorarCurso();
-            formExplorarCurso.Visible = true;
+            _padre.openChildForm(formExplorarCurso);
         }
     }
 }

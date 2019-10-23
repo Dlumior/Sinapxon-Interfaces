@@ -42,7 +42,8 @@ namespace Sinapxon.Alumno
 
         private void BtnExplorar_Click(object sender, EventArgs e)
         {
-            openChildForm(new frmExplorarCursos());
+            frmExplorarCursos explorarCursos = new frmExplorarCursos(this);
+            openChildForm(explorarCursos);
         }
     }
 }

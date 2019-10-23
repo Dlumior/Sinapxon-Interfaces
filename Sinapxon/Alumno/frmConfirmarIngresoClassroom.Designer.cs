@@ -82,6 +82,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmConfirmarIngresoClassroom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmConfirmarIngresoClassroom";
             this.ResumeLayout(false);
             this.PerformLayout();

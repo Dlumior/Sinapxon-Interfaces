@@ -203,6 +203,16 @@ namespace Sinapxon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_group_white_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_group_white_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_lock_white_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_lock_white_18dp", resourceCulture);

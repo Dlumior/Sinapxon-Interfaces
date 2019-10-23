@@ -467,5 +467,8 @@
   <ItemGroup>
     <None Include="Resources\baseline_collections_bookmark.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_group_white_18dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
