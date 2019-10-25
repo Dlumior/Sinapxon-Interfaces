@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Sinapxon.Profesor
 {
-    public partial class frmConfirmacionEnvioSolicitudClassroom : Form
+    public partial class frmTema : Form
     {
-        public frmConfirmacionEnvioSolicitudClassroom()
+        public frmTema()
         {
             InitializeComponent();
         }
 
-        private void btnConfirmar_Click(object sender, EventArgs e)
+        private void dgvArchivos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuardarTema_Click(object sender, EventArgs e)
         {
             this.Close();
         }

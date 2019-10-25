@@ -123,6 +123,16 @@ namespace Sinapxon.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseline_add_box_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_add_box_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseline_add_circle_white_18dp {
             get {
                 object obj = ResourceManager.GetObject("baseline_add_circle_white_18dp", resourceCulture);
@@ -166,6 +176,16 @@ namespace Sinapxon.Properties {
         internal static System.Drawing.Bitmap baseline_collections_bookmark {
             get {
                 object obj = ResourceManager.GetObject("baseline_collections_bookmark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_edit_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_edit_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

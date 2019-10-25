@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Sinapxon.Profesor
 {
-    public partial class frmAniadirEvaluacion : Form
+    public partial class frmEvaluacion : Form
     {
-        public frmAniadirEvaluacion()
+        public frmEvaluacion()
         {
             InitializeComponent();
+        }
+
+        private void btnGuardarEvaluacion_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

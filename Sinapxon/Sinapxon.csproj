@@ -198,23 +198,23 @@
     <Compile Include="Login\frmRegistro.Designer.cs">
       <DependentUpon>frmRegistro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profesor\frmAniadirClassroom.cs">
+    <Compile Include="Profesor\frmCalificar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profesor\frmAniadirClassroom.Designer.cs">
-      <DependentUpon>frmAniadirClassroom.cs</DependentUpon>
+    <Compile Include="Profesor\frmCalificar.Designer.cs">
+      <DependentUpon>frmCalificar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profesor\frmAniadirEvaluacion.cs">
+    <Compile Include="Profesor\frmEvaluacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profesor\frmAniadirEvaluacion.Designer.cs">
-      <DependentUpon>frmAniadirEvaluacion.cs</DependentUpon>
+    <Compile Include="Profesor\frmEvaluacion.Designer.cs">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profesor\frmAniadirTema.cs">
+    <Compile Include="Profesor\frmTema.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profesor\frmAniadirTema.Designer.cs">
-      <DependentUpon>frmAniadirTema.cs</DependentUpon>
+    <Compile Include="Profesor\frmTema.Designer.cs">
+      <DependentUpon>frmTema.cs</DependentUpon>
     </Compile>
     <Compile Include="Profesor\frmConfirmacionEnvioSolicitudClassroom.cs">
       <SubType>Form</SubType>
@@ -228,11 +228,11 @@
     <Compile Include="Profesor\frmDatosClassroom.Designer.cs">
       <DependentUpon>frmDatosClassroom.cs</DependentUpon>
     </Compile>
-    <Compile Include="Profesor\frmEditarClassroom.cs">
+    <Compile Include="Profesor\frmVerClassroom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profesor\frmEditarClassroom.Designer.cs">
-      <DependentUpon>frmEditarClassroom.cs</DependentUpon>
+    <Compile Include="Profesor\frmVerClassroom.Designer.cs">
+      <DependentUpon>frmVerClassroom.cs</DependentUpon>
     </Compile>
     <Compile Include="Profesor\frmGestionarMisClassrooms.cs">
       <SubType>Form</SubType>
@@ -323,14 +323,14 @@
     <EmbeddedResource Include="Login\frmRegistro.resx">
       <DependentUpon>frmRegistro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profesor\frmAniadirClassroom.resx">
-      <DependentUpon>frmAniadirClassroom.cs</DependentUpon>
+    <EmbeddedResource Include="Profesor\frmCalificar.resx">
+      <DependentUpon>frmCalificar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profesor\frmAniadirEvaluacion.resx">
-      <DependentUpon>frmAniadirEvaluacion.cs</DependentUpon>
+    <EmbeddedResource Include="Profesor\frmEvaluacion.resx">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profesor\frmAniadirTema.resx">
-      <DependentUpon>frmAniadirTema.cs</DependentUpon>
+    <EmbeddedResource Include="Profesor\frmTema.resx">
+      <DependentUpon>frmTema.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profesor\frmConfirmacionEnvioSolicitudClassroom.resx">
       <DependentUpon>frmConfirmacionEnvioSolicitudClassroom.cs</DependentUpon>
@@ -338,8 +338,8 @@
     <EmbeddedResource Include="Profesor\frmDatosClassroom.resx">
       <DependentUpon>frmDatosClassroom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profesor\frmEditarClassroom.resx">
-      <DependentUpon>frmEditarClassroom.cs</DependentUpon>
+    <EmbeddedResource Include="Profesor\frmVerClassroom.resx">
+      <DependentUpon>frmVerClassroom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profesor\frmGestionarMisClassrooms.resx">
       <DependentUpon>frmGestionarMisClassrooms.cs</DependentUpon>
@@ -469,6 +469,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseline_group_white_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_add_box_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_edit_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -206,12 +206,8 @@ D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Login.frm
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.frmPrincipal.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Login.frmOvlideContrasenia.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Login.frmRegistro.resources
-D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirClassroom.resources
-D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirEvaluacion.resources
-D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmAniadirTema.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmConfirmacionEnvioSolicitudClassroom.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmDatosClassroom.resources
-D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmEditarClassroom.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmGestionarMisClassrooms.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmProfesor.resources
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Properties.Resources.resources
@@ -219,3 +215,7 @@ D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csproj.Ge
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.exe
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.pdb
 D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.csprojAssemblyReference.cache
+D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmVerClassroom.resources
+D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmTema.resources
+D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmEvaluacion.resources
+D:\VisualStudio\CSharp\Sinapxon-Interfaces\Sinapxon\obj\Debug\Sinapxon.Profesor.frmCalificar.resources

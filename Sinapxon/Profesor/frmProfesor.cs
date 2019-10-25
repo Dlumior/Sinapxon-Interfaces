@@ -16,7 +16,6 @@ namespace Sinapxon.Profesor
         public frmProfesor()
         {
             InitializeComponent();
-            pctLogoSinapxon.Image = Image.FromFile("Sinpaxon_Principal.png");
         }
 
         public void openChildForm(Form formularioHijo)
@@ -36,7 +35,8 @@ namespace Sinapxon.Profesor
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            openChildForm(new frmGestionarMisClassrooms());
+            frmGestionarMisClassrooms formMisClassrooms = new frmGestionarMisClassrooms(this);
+            openChildForm(formMisClassrooms);
         }
     }
 }

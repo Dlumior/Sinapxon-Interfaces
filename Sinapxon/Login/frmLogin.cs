@@ -29,17 +29,17 @@ namespace Sinapxon.Login
             this.Visible = true;
             */
 
-            
+            /*
             frmAlumno formAlumno = new frmAlumno();
             formAlumno.Visible = true;
             this.Visible = true;
-            
+            */
 
-            /*
+            
             frmProfesor formProfesor = new frmProfesor();
             formProfesor.Visible = true;
             this.Visible = true;
-            */
+            
 
             /*
             frmAdministrador formAdministrador = new frmAdministrador();

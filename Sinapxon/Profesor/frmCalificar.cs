@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Sinapxon.Profesor
 {
-    public partial class frmAniadirTema : Form
+    public partial class frmCalificar : Form
     {
-        public frmAniadirTema()
+        public frmCalificar()
         {
             InitializeComponent();
         }
 
-        private void dgvArchivos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

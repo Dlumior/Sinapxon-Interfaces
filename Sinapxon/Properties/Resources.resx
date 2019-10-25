@@ -121,17 +121,17 @@
   <data name="ContenedorTXT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ContenedorTXT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Barra-G4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Barra-G41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="baseline_collections_bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_collections_bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baseline_account_circle_Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_account_circle_Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="round_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\round_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SINAPXON_LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SINAPXON_LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baseline_add_circle_white_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_add_circle_white_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +148,8 @@
   <data name="baseline_account_circle_white_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_account_circle_white_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SINAPXON_LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SINAPXON_LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="round_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="round_assignment" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\round_assignment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +157,14 @@
   <data name="Barra_P-Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barra_P-Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="baseline_add_box_black_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_add_box_black_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="baseline_find_in_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_find_in_page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="round_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\round_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Barra-G4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Barra-G41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baseline_lock_white_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_lock_white_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -186,5 +189,8 @@
   </data>
   <data name="baseline_group_white_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseline_group_white_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseline_edit_black_18dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_edit_black_18dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -16,5 +16,10 @@ namespace Sinapxon.Alumno
         {
             InitializeComponent();
         }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
